@@ -1,0 +1,10 @@
+# rewrite configuration for travelkey v0.1
+
+location / {
+#            if (!-f $request_filename){
+#               rewrite (.*) /index.php;
+#            }
+	echo 'wo shi config';
+        }
+
+ 
